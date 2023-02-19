@@ -21,10 +21,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
-        android:layout_width="200dp"
+        android:layout_width="0dp"
         android:layout_height="200dp"
-        tools:ignore="MissingConstraints"
-        android:layout_gravity="center">
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/text_home"
+        tools:ignore="MissingConstraints">
 
         <ImageView
             android:layout_width="match_parent"
