@@ -21,32 +21,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         tools:ignore="MissingConstraints"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_gravity="center"
-        android:layout_margin="16dp"
-        android:background="@android:color/holo_orange_dark">
+        android:layout_gravity="center">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/kazakh"
-            android:scaleType="centerCrop" />
+            android:src="@drawable/kazakh" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
             android:background="#80000000"
             android:text="My Photo Title"
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:layout_gravity="bottom|center_horizontal"
-            android:padding="16dp"/>
+            android:textSize="16sp" />
 
     </FrameLayout>
 
